@@ -3,14 +3,16 @@
 #include<stdlib.h>
 /**
 *main - Entry point
-*Discription: 'check number sign'
+*Discription: 'check for number if it is negative or positive'
 *Return: always 0 (success)
 */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;	
+	n = rand() - RAND_MAX / 2;
+
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
