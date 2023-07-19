@@ -2,10 +2,9 @@
 /**
 *jack_bauer - Entry point
 * Description: 'agent'
-* @z: enterd data
 * Return:nothing
 */
-void jack_bauer(void z)
+void jack_bauer(void)
 {
 	int a, b, c, d;
 
