@@ -2,6 +2,7 @@
 /**
 *_islower - Entry point
 * Description: 'check if lower case'
+* @c: enterd data
 * Return: 1 (success)
 */
 int _islower(int c)
