@@ -5,10 +5,8 @@
 * @b: second int
 * Return: a mult by b
 */
+
 int mul(int a, int b)
 {
-	int mult;
-
-	mult = a * b;
-	return (mult);
+	return (a * b);
 }
