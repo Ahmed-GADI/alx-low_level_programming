@@ -15,13 +15,13 @@ char *_strcat(char *dest, char *src)
 	
 	p = (char *)malloc(sizeof(char));
 	p = dest;
-	while ( *p != '\0' )
+	while (*p != '\0')
 	{
 		p++;
 		ln++;
 	}
 	p = src;
-	while ( *p != '\0' )
+	while (*p != '\0')
         {
 		p++;
                 ln++;
@@ -30,13 +30,13 @@ char *_strcat(char *dest, char *src)
 	res = dest;
 	p = res;
 	ln = 0;
-	while ( *p != '\0' )
+	while (*p != '\0')
 	{
 		p++;
 		ln++;
 	}
 	p = src;
-	while ( *p != '\0' )
+	while (*p != '\0')
 	{
 		*(res + ln) = *p;
 		p++;
