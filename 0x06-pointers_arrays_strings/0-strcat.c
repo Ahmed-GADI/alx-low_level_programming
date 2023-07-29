@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * _strcat - Entry point
- * @dest: first string
- * @src: second string
- * Return: concatinated string
- */
+* _strcat - Entry point
+* @dest: first string
+* @src: second string
+* Return: concatinated string
+*/
 
 char *_strcat(char *dest, char *src)
 {
