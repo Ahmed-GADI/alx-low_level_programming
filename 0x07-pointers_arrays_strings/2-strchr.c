@@ -16,7 +16,7 @@ char *_strchr(char *s, char c)
 	p = (char *)malloc(sizeof(char));
 	p = s;
 
-	for (i = 0; p[i] != '\0' ; i++)
+	for (i = 0; p[i] >= '\0' ; i++)
 	{
 		if (p[i] == c)
 			return (++p);
