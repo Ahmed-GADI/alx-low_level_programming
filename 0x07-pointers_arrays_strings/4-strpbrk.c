@@ -1,6 +1,10 @@
 #include "main.h"
 
 /**
+ * _strpbrk - Entry point
+ * @s: string
+ * @accept: second string
+ * Return: s if success 0 if not
  */
 
 char *_strpbrk(char *s, char *accept)
