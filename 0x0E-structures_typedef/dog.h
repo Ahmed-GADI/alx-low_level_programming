@@ -1,5 +1,5 @@
-#ifndef HEADER_FILE_NAME_H
-#define HEADER_FILE_NAME_H
+#ifndef dog_h
+#define dog_h
 
 /**
  * struct dog - short description
@@ -16,3 +16,4 @@ struct dog
 };
 
 #endif
+void init_dog(struct dog *d, char *name, float age, char *owner);
