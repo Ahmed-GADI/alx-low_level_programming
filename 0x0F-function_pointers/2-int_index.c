@@ -5,6 +5,7 @@
  * @array: entered array
  * @size: size of the array
  * @cmp: function used
+ * Return: 0 true -1 if not
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
@@ -20,5 +21,4 @@ int int_index(int *array, int size, int (*cmp)(int))
 			return (ind);
 	}
 	return (-1);
-
 }
