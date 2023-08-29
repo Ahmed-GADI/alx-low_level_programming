@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * pop-listint - Entry point
+ * pop_listint - Entry point
  * @head: pointer to the head of the list
  * Return: deleted data
  */
