@@ -3,6 +3,7 @@
 /**
  * pop-listint - Entry point
  * @head: pointer to the head of the list
+ * Return: deleted data
  */
 
 int pop_listint(listint_t **head)
