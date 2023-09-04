@@ -12,7 +12,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	if (!filename)
 		return (-1);
 	
-	if (filename)
+	if (text_content)
 	{
 		for (leng = 0; text_content[leng];)
 			leng++;
