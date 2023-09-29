@@ -5,14 +5,14 @@
  * @num: Entered number
  */
 
-void print_binary(unsigned long int n)
+void print_binary(unsigned long int num)
 {
 	int i, cmp = 0;
 	unsigned long int curr;
 
 	for (i = 63; i >= 0; i--)
 	{
-		curr = n >> i;
+		curr = num >> i;
 		if (curr & 1)
 		{
 			_putchar('1');
@@ -23,4 +23,5 @@ void print_binary(unsigned long int n)
 	}
 	if(!cmp)
 		_putchar('0');
+
 }
