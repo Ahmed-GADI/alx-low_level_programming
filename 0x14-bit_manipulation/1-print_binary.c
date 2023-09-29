@@ -10,7 +10,7 @@ void print_binary(unsigned long int n)
 	int i, cmp = 0;
 	unsigned long int curr;
 
-	for (i = 63; i >= 0; i++)
+	for (i = 63; i >= 0; i--)
 	{
 		curr = n >> i;
 		if (curr & 1)
