@@ -9,7 +9,7 @@
  */
 int main(int ac, char **av)
 {
-    ssize_t n;
+    long int n;
 
     if (ac != 2)
     {
